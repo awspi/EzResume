@@ -21,7 +21,9 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'arrow-body-style': 'off',
-    'prefer-arrow-callback': 'off'
+    'prefer-arrow-callback': 'off',
+    'react/no-unknown-property': 'off',
+    '@typescript-eslint/no-var-requires': 'off'
   },
   settings: {
     react: {
